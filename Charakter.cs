@@ -15,7 +15,11 @@ namespace SpielcharakterMVC
 
         public Charakter(string name, int lebenspunkte, string ruestung, int heiltraenke)
         {
-            Name = name; Lebenspunkte = lebenspunkte; Ruestung = ruestung; Heiltraenke = heiltraenke;
+            Name = name; 
+            Lebenspunkte = lebenspunkte; 
+            Ruestung = ruestung; 
+            Heiltraenke = heiltraenke;
+            Hallo= hallo;
         }
         public virtual void Action()
         {
