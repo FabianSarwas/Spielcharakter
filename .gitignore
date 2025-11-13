@@ -1,0 +1,28 @@
+# Visual Studio / Rider / IDE-Caches
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build-Ordner
+bin/
+obj/
+Debug/
+Release/
+
+# Test-Ergebnisse
+TestResults/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# Sonstiges Zeug
+*.log
+*.tmp
+*.bak
